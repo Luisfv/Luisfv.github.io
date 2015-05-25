@@ -11,6 +11,15 @@ Author:  Luis Vasquez
 /* --------------------------------------
    Layout
    -------------------------------------- */
+#features {
+   text-align: center;
+   padding: 5px;
+}
+
+#features img {
+   margin: 0 0 20px;
+}
+
 
 /* --------------------------------------
    Typography
