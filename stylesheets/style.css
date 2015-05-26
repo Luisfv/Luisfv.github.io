@@ -19,10 +19,6 @@ Author:  Luis Vasquez
 	text-align: left;
 }
 
-.navbar-header {
-    text-align: center;
-}
-
 .dropdown-backdrop {
   position: static;
 }
@@ -41,7 +37,12 @@ body {
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+.navbar .navbar-brand {
+    max-height: 78px;
+    overflow: visible;
 
+}
+   
    
 /* --------------------------------------
    Carousel
