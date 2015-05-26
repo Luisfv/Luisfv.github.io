@@ -56,11 +56,8 @@ body {
 @media (max-width: 480px) {
 	html,body{width:100%;overflow-x:hidden;}
 	#logo {
-		width: 75px;
-		height: 75px;
-	}
-	#personal {
-		padding-right: 25px;
+		width: 90px;
+		height: 90px;
 	}
 }
 
