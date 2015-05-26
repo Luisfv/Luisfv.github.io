@@ -56,12 +56,12 @@ body {
 @media (max-width: 480px) {
 	html,body{width:100%;overflow-x:hidden;}
 	#logo {
-		width: 100px;
-		height: 100px;
+		width: 35px;
+		height: 35px;
 	}
-	#personal {
+	/*#personal {
 		padding-right: 10px;
-	}
+	}*/
 }
 
 /* Landscape phone to portrait tablet */
