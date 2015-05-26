@@ -59,6 +59,9 @@ body {
 		width: 100px;
 		height: 100px;
 	}
+	#personal {
+		padding-right: 10px;
+	}
 }
 
 /* Landscape phone to portrait tablet */
