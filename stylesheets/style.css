@@ -23,6 +23,9 @@ Author:  Luis Vasquez
     text-align: center;
 }
 
+.dropdown-backdrop {
+  position: static;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
