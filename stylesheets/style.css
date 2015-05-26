@@ -37,11 +37,6 @@ body {
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-.navbar .navbar-brand {
-    max-height: 78px;
-    overflow: visible;
-
-}
    
    
 /* --------------------------------------
@@ -59,12 +54,12 @@ body {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+	html,body{width:100%;overflow-x:hidden;}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-   
+   html,body{width:100%;overflow-x:hidden;}
 }
 
 /* Large desktop */
