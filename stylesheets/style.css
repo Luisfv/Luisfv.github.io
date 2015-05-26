@@ -51,10 +51,10 @@ body {
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 	html,body{width:100%;overflow-x:hidden;}
-	#logo {
+	/*#logo {
 		width: 90px;
 		height: 90px;
-	}
+	}*/
 }
 
 /* Landscape phone to portrait tablet */
