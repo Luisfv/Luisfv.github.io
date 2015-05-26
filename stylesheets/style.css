@@ -19,6 +19,8 @@ Author:  Luis Vasquez
 	text-align: left;
 }
 
+
+
 .dropdown-backdrop {
   position: static;
 }
@@ -58,6 +60,10 @@ body {
 	#logo {
 		width: 90px;
 		height: 90px;
+	}
+
+	#personal {
+		padding-right: 50px;
 	}
 }
 
