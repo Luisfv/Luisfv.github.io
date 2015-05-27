@@ -19,6 +19,13 @@ Author:  Luis Vasquez
 	margin-top: 70px;
 }
 
+iframe {
+	margin: auto;
+	display: block;
+	height: 795px;
+	width: 800px;
+	border: none;
+}
 
 /* --------------------------------------
    Typography
@@ -41,9 +48,19 @@ body {
    		overflow-x:hidden;
     }
 
-    iframe {
+    #resume {
+    	position: relative;
+	    padding-top: 35px;
+	    overflow: hidden;
+    }
 
-	}
+    #resume iframe {
+    	position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%px;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -53,13 +70,20 @@ body {
    		overflow-x:hidden;
     }
 
-    iframe {
-		margin: auto; 
-		display: block;
-		height: 705px;
-		width: 550px;
-		border: none;
-	}
+    #resume {
+    	position: relative;
+	    padding-bottom: 100%;
+	    padding-top: 35px;
+	    overflow: hidden;
+    }
+
+    #resume iframe {
+    	position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+    }
 }
 
 /* Large desktop */
