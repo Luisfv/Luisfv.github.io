@@ -18,13 +18,7 @@ Author:  Luis Vasquez
 #resume {
 	margin-top: 70px;
 }
-iframe {
-	margin: auto;
-	display: block;
-	height: 795px;
-	width: 800px;
-	border: none;
-}
+
 
 /* --------------------------------------
    Typography
@@ -48,9 +42,7 @@ body {
     }
 
     iframe {
-		height: 705px;
-		width: 200px;
-		border: none;
+
 	}
 }
 
@@ -76,4 +68,12 @@ body {
    		width:100%;
    		overflow-x:hidden;
     }
+
+    iframe {
+		margin: auto;
+		display: block;
+		height: 795px;
+		width: 800px;
+		border: none;
+	}
 }
