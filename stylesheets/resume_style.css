@@ -48,8 +48,6 @@ body {
     }
 
     iframe {
-		margin: auto; 
-		display: block;
 		height: 705px;
 		width: 200px;
 		border: none;
