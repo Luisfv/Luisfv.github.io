@@ -1,0 +1,81 @@
+/*
+
+Personal Website
+=============
+
+Author:  Luis Vasquez
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.dropdown-backdrop {
+  	position: static;
+}
+
+#resume {
+	margin-top: 70px;
+}
+iframe {
+	margin: auto;
+	display: block;
+	height: 795px;
+	width: 800px;
+	border: none;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   padding-bottom: 25px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	html,body {
+   		width:100%;
+   		overflow-x:hidden;
+    }
+
+    iframe {
+		margin: auto; 
+		display: block;
+		height: 705px;
+		width: 550px;
+		border: none;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    html,body {
+   		width:100%;
+   		overflow-x:hidden;
+    }
+
+    iframe {
+		margin: auto; 
+		display: block;
+		height: 705px;
+		width: 550px;
+		border: none;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	html,body {
+   		width:100%;
+   		overflow-x:hidden;
+    }
+}
