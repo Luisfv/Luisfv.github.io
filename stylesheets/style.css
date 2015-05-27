@@ -23,6 +23,23 @@ Author:  Luis Vasquez
 	padding-top: 25px;
 }
 
+.jumbotron {
+	padding: 0em;	
+}
+
+#zylogo {
+	height: 400px;
+	width: 400px;
+	display: block;
+	width: 50%;
+	height: 50%;
+}
+
+.col-centered {
+	float: none;
+    margin: 0 auto;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -33,9 +50,6 @@ body {
    padding-bottom: 25px;
 }
 
-.jumbotron {
-	padding: 0em;	
-}
 
 /* --------------------------------------
    Navbar
