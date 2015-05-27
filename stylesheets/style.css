@@ -90,6 +90,13 @@ body {
 		font-size: 275%;
 		padding-top: 0.25em;
 	}
+
+	#aboutme{
+		background: #eee;
+		margin: auto;
+		padding: auto;
+		width: 100%;
+	}
 }
 
 /* Landscape phone to portrait tablet */
